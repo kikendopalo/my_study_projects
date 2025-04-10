@@ -1,8 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/K9qdQDci)
-# boolean-template
-Template Repository for HW 1
-
-## Task for HW 1
+## Task
 
 The input is a Boolean formula in 2-CNF, given as a string of symbols. A *literal* is a variable name 
 (at least any small Latin letter should be a legal variable name) or its negation, denoted by `~`.
@@ -25,23 +21,3 @@ returns either `True` (satisfiable) or `False` (not satisfiable). The second tas
 a function called `sat_assignment`. This function also takes one argument (string) and returns an associative
 array (dictionary) with the satifying assignment (e.g., `{ 'p': True, 'q': False, 'r': True }`) or `None`,
 if the 2-CNF is not satisfiable.
-
-**Warning:** the automatic tests run several iterations of your functions, with different CNFs.
-If you use global variables, please make sure that their values from previous iterations do not 
-make the next one work incorrectly.
-
-### Practical Info
-
-The preferable way to submit the assignment is via GitHub classroom, [invite link](https://classroom.github.com/a/AlaSr1mN),
-see also [course webpage](https://homepage.mi-ras.ru/~sk/lehre/dm_hse/) for details.
-After submitting, you shall see the results of automated testing, which will be used for grading.
-As a fallback, it is also possible to submit via email to <sk@mi-ras.ru>. The same address may be used for 
-asking questions. 
-
-The deadline is **October 12, 2024** anywhere-on-Earth, and it is **strict**. If you know you will not be able
-to finish the task before the deadline, please inform **in advance**.
-
-**Cheating will not be tolerated.** 
-The notion of cheating here includes, besides usage of other students' code, also the following: (1) altering
-the test file `boolean_test.py` (removing tests which fail etc); (2) hardcoding the correct results for given
-tests. Any detected case of cheating will result in unchangable mark of 0 points for HW 1.
