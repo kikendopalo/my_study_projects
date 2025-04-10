@@ -9,15 +9,4 @@ denoted by `/\`.
 Example: `p /\ (p -> q) /\ (p -> ~r) /\ (~r \/ ~s) /\ (s \/ ~q)`
 
 The *first* task is to check whether the given 2-CNF is satisfiable. The *second* task is, given a 2-CNF,
-report that it is not satisfiable or return one of its satisfying assignments. Solving only the first task
-gives you a half grade (2 points out of 4). Solving both gives 4 points.
-
-### Technical Details
-
-In order for the automated test to work fine, please carefully adhere the following technical instructions.
-Your solution should be implemented in Python3, in a file named `boolean.py`. For the first task, you should
-implement a function called `is_satisfiable`, which takes the string with the 2-CNF as an argument and
-returns either `True` (satisfiable) or `False` (not satisfiable). The second task should be implemented as
-a function called `sat_assignment`. This function also takes one argument (string) and returns an associative
-array (dictionary) with the satifying assignment (e.g., `{ 'p': True, 'q': False, 'r': True }`) or `None`,
-if the 2-CNF is not satisfiable.
+report that it is not satisfiable or return one of its satisfying assignments.
